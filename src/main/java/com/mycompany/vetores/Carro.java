@@ -25,7 +25,7 @@ public class Carro {
 
         JOptionPane.showMessageDialog(null, result);
 
-        int indice = Integer.parseInt(JOptionPane.showInputDialog("Código da marca(1 a 3): "));
+        int indice = Integer.parseInt(JOptionPane.showInputDialog("Código da marca(0 a 2): "));
         JOptionPane.showMessageDialog(null, marca[indice] + " - " + modelo[indice]);
     }
 }
